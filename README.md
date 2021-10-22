@@ -31,7 +31,7 @@ My design:
 - [x] Contacting the artist
 - [x] Next show
 - [x] Ordering prints
-- [] Request custom art
+- [x] Request custom art
 
 I wanted people to not only be able to view and buy Victoria's art. But also get to know a little bit about her. She has lived a very
 full, hard, adventerous, brave life. I think that her experiences from life probably drive some of her art. I also wanted to give her
@@ -94,7 +94,8 @@ a buy prints button that will lead to the print page where prints can be purchas
 This file creates the contact page. Can be accessed from the nav bar contact button as well as the link at the bottom of the container
 holding the artisit photo on the homepage.
 This page has the nav bar as well as a three celled container that has information regarding
-the next show, email and how to request custom art work.
+the next show, email a input feild to request custom art work this is then stored in a table called request with name, email, request.
+An email is then sent to both the user and the artist.
 
 ###### Print
 
@@ -135,8 +136,7 @@ and I really enjoyed the abiblity to do that.
 ##### Debated Choices
 - [x] payment
 - [x] filter
-- [] template design
--
+- [x] template design
 
 ###### Payment Debate
 
@@ -154,7 +154,7 @@ At this point I was not intrested in accepting payments on the website.
 - [x] google merch
 - [x] venmo
 - [x] paypal
-~~ - [] square ~~
+~~ - [x] square ~~
 - [x] Etsy
 Amazon and Google would both be good options for creating online store fronts where purchases could occur and be logged. I also mostly
 use Amazon and Google for my printing need so I was familer with thier printing services and the quality of their prints.
@@ -193,3 +193,7 @@ For this progject I really wanted the website to look professional however I rea
 into bootstrap.css on w3 and planned to do the online tutorial. That is when I found the w3.css tutorial. As I stated early the intro
 page showed all the features and it seemed perfect for desiging by own layout for this page. I did look at the template for both
 bootstrap and w3.css. None of them really meet what I wanted.
+
+### Orginal Demo
+
+[Original Demo] (git@github.com:mxw035/Monica-s-Art.git)
