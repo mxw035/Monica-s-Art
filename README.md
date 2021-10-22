@@ -154,7 +154,7 @@ At this point I was not intrested in accepting payments on the website.
 - [x] google merch
 - [x] venmo
 - [x] paypal
-~~ - [x] square ~~
+- [x] square
 - [x] Etsy
 Amazon and Google would both be good options for creating online store fronts where purchases could occur and be logged. I also mostly
 use Amazon and Google for my printing need so I was familer with thier printing services and the quality of their prints.
