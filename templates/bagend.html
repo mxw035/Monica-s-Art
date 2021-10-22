@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+Bagend
+
+{% endblock %}
+
+{% block main %}
+
+<button class="w3-button w3-lime w3-hover-amber" onclick="document.getElementById('id01').style.display='block'">Inspiration</button>
+<div id="id01" class="w3-pannel w3-teal w3-display-container" style="display:none">
+    <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-display-topright w3-amber
+    w3-hover-lime">X</span>
+    <h1>Inspiration for Bagend</h1>
+    <p>I have always loved Lord of the Rings. I love the story of the Hobbit. I love the idea of a peacefull and homey place
+    such as Hobbitin. That is why I have painted this picture of bagend to reprsent the joy, peace and homecomming associated
+    with this particular hobbit hole.</p>
+</div>
+
+
+<div class"w3-row">
+    <div class="w3-container w3-teal w3-button w3-hover-light-green w3-half">
+        <a href="/print">
+        <img class="w3-image w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white" src="/static/Bagend.jpg">
+        </a>
+    </div>
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+    Buy Prints
+
+{% endblock %}
+
+{% block main %}
+
+<header>
+    <p class="w3-jumbo w3-cursive w3-center w3-topbar w3-bottombar w3-border-teal">Prints</p>
+</header>
+<div class = "w3-container w3-amber">
+    <h1>Ordering prints</h1>
+    <p>Listed below are our 3 purchasing options. To have a 12X18 print delievred to your home we reccomend Amazon prints but
+    we will also print with Google if requested. If you wish to purchase your own JPG or PDF copy of the print that is also a
+    option.</p>
+    <p>Please input your name, best email for contact, you choice of the three options and we will respond with in 24 hours to
+    discuss shipping and payment options. Thank you for supporting Monica's art.</p>
+</div>
+
+<div class = "w3-card-4">
+    <div class = " w3-third w3-aqua w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+        <h1>Painting</h1>
+        <ol>
+            <li>Artloth</li>
+            <li>Bagend</li>
+            <li>Monica and Gio</li>
+            <li>Sunflowers</li>
+            <li>Tom Bombadil</li>
+            <li>Tree Swing</li>
+        </ol>
+    </div>
+
+    <div class = " w3-third w3-lime w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+    <h1>Order Print</h1>
+    <ol>
+        <li>Google Prints</li>
+        <li>Amazon Prints</li>
+        <li>JPG</li>
+        <li>PDF</li>
+        </ol>
+    </div>
+    <div class = " w3-third w3-lime w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+        <form action="/email" method="post">
+            <input class = "w3-input w3-border" name="name" placeholder="Name" autocomplete="off" type = "text">
+            <input class = "w3-input w3-border" name="email" placeholder="Email" autocomplete="off" type = "text">
+            <input class= "w3-input w3-border" name="painting" placeholder="Painting" autocomplete="off" type="text">
+            <input class= "w3-input w3-border" name="place" placeholder="Place" autocomplete="off" type="text">
+            <input class= "w3-button w3-teal w3-hover-lime" type="submit" value="submit">
+        </form>
+    </div>
+</div>
+
+<div class = "w3-row w3-large">
+    <div class = "w3-third w3-light-green w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+        <h1>Google Prints</h1>
+        <p>A 12x18 print from Google will be 25$.</p>
+        <br>
+        <p>Could also set up Google Merch for Victoria</p>
+        <a href="https://www.google.com/intl/en_us/retail/solutions/merchant-center/?&fmp=1&utm_id=gfr&utm_source=google&utm_medium=ha&utm_campaign=us-en-bkws&mcsubid=us-en-ha-g-mc-bkws&gclid=CjwKCAjwn8SLBhAyEiwAHNTJbdSYMwZBgzfl5W4aUQ5-ZW5MkNCRpemR7he4AOMDXvYkyYCAlP1fEBoCrxIQAvD_BwE">
+            Google Merch
+        </a>
+        </div>
+    <div class = "w3-third w3-pale-yellow w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+        <h1>Amazon Prints</h1>
+        <p>Prints with Amazon will be 15$ for a 12x18</p>
+        <p>You can print with Amazon Merch would need to set up for Victoria
+            <a href="https://merch.amazon.com/landing">Amazon Merch</a>
+        </p>
+    </div>
+    <div class = "w3-third w3-light-blue w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white">
+        <h1>JPG FILE</h1>
+        <p>For a JPG file or PDF file of the print emailed to you it will be 30$.
+        You may use any printing service you like. We only ask that you respect the artist work
+        do not resale the image or use it for business purposes without expressed permission and give
+        the artist credit for their work.</p>
+    </div>
+</div>
+<div class = "w3-container w3-brown">
+    <h1>Payment options for site</h1>
+    <h2>Google Merch</h2>
+    <p>An account could be set up for Victoria creating her own Google Merchandise store.</p>
+    <a href="https://www.google.com/intl/en_us/retail/solutions/merchant-center/?&fmp=1&utm_id=gfr&utm_source=google&utm_medium=ha&utm_campaign=us-en-bkws&mcsubid=us-en-ha-g-mc-bkws&gclid=CjwKCAjwn8SLBhAyEiwAHNTJbdSYMwZBgzfl5W4aUQ5-ZW5MkNCRpemR7he4AOMDXvYkyYCAlP1fEBoCrxIQAvD_BwE">
+    <h2>Amazon Merch</h2>
+    <p>Victoria could also set up a Amazon Merch store where people could buy her prints</p>
+    <a href="https://merch.amazon.com/landing">Amazon Merch</a>
+    <h2>Paypal</h2>
+    <p>Paypal could also be used. This would be for payment only and would fix the issue of website creditcard security</p>
+    <br>
+    <p>For using paypal Victoria would only need to sign up for an account and then paypal woudl creat the html code for
+    a button and we would copy and paste it on to the prints page.</p>
+    <h2>Square</h2>
+    <p>Unfortunately for square you must use one of there approved applications for your website host such as godaddy.</p>
+    <p>This would not be the best option for us.</p>
+    <h2>Venmo</h2>
+    <p>At this time Venmo does not really support a ton of business transactions. The venmo website states its services
+    were design for individuals to pay their friend or people they already know. Not unknown entities or businesses.</p>
+    <h2>Etsy</h2>
+    <a href="https://www.etsy.com/sell?ref=ftr">Etsy Create Store</a>
+</div>
+
+
+{% endblock %}

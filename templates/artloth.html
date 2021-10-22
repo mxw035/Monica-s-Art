@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+Artloth
+
+{% endblock %}
+
+{% block main %}
+
+<button class="w3-button w3-lime w3-hover-amber" onclick="document.getElementById('id01').style.display='block'">Inspiration</button>
+<div id="id01" class="w3-pannel w3-teal w3-display-container" style="display:none">
+    <span onclick="this.parentElement.style.display = 'none'" class="w3-button w3-display-topright w3-amber
+    w3-hover-lime">X</span>
+    <h1>Inspiration for Artloth</h1>
+    <p>I have always loved Lord of the Rings. My favorite parts of the Fellowship of the Ring include Tom Bombadils story
+    and the elven realm of Lothlorien. In fact I love Lothlorien so much that I have an aribnb attached to my house that
+    I have named Lothlorien. This painting is one that I created for the airbnb that represents our home nesteled in the
+    forest of Lothlorien.</p>
+</div>
+<div class="w3-container w3-teal w3-button w3-hover-light-green w3-half">
+    <a href="/print">
+    <img class="w3-image w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-border-white" src="/static/Artloth.jpg">
+    </a>
+</div>
+
+
+{% endblock %}

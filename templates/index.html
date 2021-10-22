@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+    </div>
+
+        <div class=" w3-lime w3-leftbar w3-rightbar
+        w3-topbar w3-bottombar w3-border-white">
+            <header>Art Work</header>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/artloth">
+                    <p>Arthloth</p>
+                </a>
+            </div>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/bag">
+                    <p>Bagend</p>
+                </a>
+            </div>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/meg">
+                    <p>Monica And Gio</p>
+                </a>
+            </div>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/sun">
+                    <p>Sunflowers</p>
+                </a>
+            </div>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/tom">
+                    <p>Tom Bombadil</p>
+                </a>
+            </div>
+            <div class = "w3-button w3-round-xxlarger w3-hover-amber w3-teal">
+                <a href="/tree">
+                    <p>Tree</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class = "w3-button w3-aqua w3-hover-lime">
+        <a href = "/style">
+            Style
+        </a>
+    </div>
+
+    <div class = "w3-row">
+
+        <div class = "w3-half w3-center w3-lime w3-button w3-hover-light-blue">
+            <a href="/about">
+                <img src="/static/Monica.JPG" alt="Monica Evans drinking coffee" class="w3-image w3-leftbar w3-rightbar
+                w3-topbar w3-bottombar w3-border-white">
+            </a>
+            <p>Monica</p>
+            <p>Flagstaff, AZ</p>
+            <div class="w3-button w3-hover-lime">
+                <a href="/contact">Contact Me</a>
+            </div>
+        </div>
+
+        <div class = "w3-half w3-center w3-aqua w3-leftbar w3-rightbar
+            w3-topbar w3-bottombar w3-border-white w3-button w3-hover-light-green">
+            <a href="/art">
+                <p class = "w3-cursive w3-jumbo w3-center">Monica's Art Show</p>
+            </a>
+        </div>
+        <div class = "w3-half w3-center w3-amber w3-leftbar w3-rightbar
+            w3-topbar w3-bottombar w3-border-white w3-button w3-hover-pale-yellow">
+            <a href="/art">
+                <img class="art" src="/static/Artloth.jpg" width="100%" >
+                <img class="art" src="/static/Bagend.jpg" width="100%">
+                <img class="art" src="/static/Meg.jpg" width="100%">
+                <img class="art" src="/static/Sunflowers.jpg" width="100%">
+                <img class="art" src="/static/tom.jpg" width="100%">
+                <img class="art" src="/static/Tree.jpg" width="100%">
+
+            <script>
+                w3.slideshow(".art", 1500);
+            </script>
+            </a>
+        </div>
+    </div>
+
+
+{% endblock %}
