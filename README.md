@@ -156,6 +156,8 @@ At this point I was not intrested in accepting payments on the website.
 - [x] paypal
 - [x] square
 - [x] Etsy
+
+
 Amazon and Google would both be good options for creating online store fronts where purchases could occur and be logged. I also mostly
 use Amazon and Google for my printing need so I was familer with thier printing services and the quality of their prints.
 I also liked that if we chose the Venmo route to start. Once payment was recieved Victoria could order the print from either Amazon or
