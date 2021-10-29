@@ -8,10 +8,12 @@ body{
   background-color:#c73e45;
   color:white;
   border-radius:12px;
+  height:100px
 }
 #indiv{
   background-color:#FFC300;
   border-radius:12px;
+  height:100px;
 }
 a {
   color:white;
@@ -23,6 +25,7 @@ button{
   border:white;
   box-shadow:0 4px 8px 0 #81807C;
   height:50px;
+  padding:25px;
 }
 main {
   background-color:#c7c03e;
@@ -35,6 +38,8 @@ header{
   color:white;
   text-align:center;
   border-radius:12px;
+  height:200px;
+  font-family:cursive;
 }
 p {
   background-color:#3e45c7;
