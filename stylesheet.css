@@ -61,6 +61,8 @@ p {
 img{
   background-color:#89c73e;
   margin:10px;
+  width:50%;
+  height:auto;
 }
 div {
   background-color:#c73e8a;
