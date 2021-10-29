@@ -1,4 +1,0 @@
-Flask
-SQL
-
-w3.css
