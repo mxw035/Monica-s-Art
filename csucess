@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <title>
+      Monica's Art Show
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/static/stylesheet.css">
+
+    <style>
+    </style>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body class = "w3-amber">
+    <nav class="w3-bar w3-teal">
+        <div class ="w3-bar-item w3-button w3-round w3-hover-light-green">
+            <a href="index.html">Home</a>
+        </div>
+        <div class ="w3-bar-item w3-button w3-round w3-hover-light-blue">
+            <a href="about.html">About</a>
+        </div>
+        <div class ="w3-bar-item w3-button w3-round w3-hover-pale-yellow">
+            <a href="art.html">Art</a>
+        </div>
+        <div class ="w3-bar-item w3-button w3-round w3-hover-pale-blue">
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class ="w3-bar-item w3-button w3-round w3-hover-light-green">
+            <a href="print.html">Prints</a>
+        </div>
+    </nav>
+
+    <main>
+      <h1>Thank you </h1>
+      <p>Thank you for requesting a custom painting with Monica's Art Show. You will revieve an email in the next 24 hours to dicuss your painting. 
+        If you have any questions please reach out at monicacs502021@gmail.com </p>
+    </main>
+
+
+</body>
+</html>
